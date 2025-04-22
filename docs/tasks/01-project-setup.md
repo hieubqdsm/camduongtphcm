@@ -3,16 +3,16 @@
 ## Tasks
 
 ### 1. Initialize Project Structure
-- [ ] Create new Next.js project with TypeScript
+- [x] Create new Next.js project with TypeScript
   ```bash
   pnpm create next-app@latest camduongtphcm --typescript --tailwind --eslint
   ```
-- [ ] Set up project directory structure as per technical spec
+- [x] Set up project directory structure as per technical spec
 - [ ] Configure ESLint and Prettier
-- [ ] Set up Git repository and .gitignore
+- [x] Set up Git repository and .gitignore
 
 ### 2. Dependencies Installation
-- [ ] Install core dependencies
+- [x] Install core dependencies
   ```bash
   pnpm add leaflet react-leaflet @types/leaflet
   ```
@@ -22,19 +22,19 @@
   ```
 
 ### 3. Environment Setup
-- [ ] Create .env.local with required variables
-- [ ] Set up environment variable types
+- [x] Create .env.local with required variables
+- [x] Set up environment variable types
 - [ ] Configure test environment
-- [ ] Set up build scripts in package.json
+- [x] Set up build scripts in package.json
 
 ### 4. Initial Configuration
-- [ ] Configure Tailwind CSS
-- [ ] Set up base TypeScript configuration
+- [x] Configure Tailwind CSS
+- [x] Set up base TypeScript configuration
 - [ ] Configure Jest for testing
-- [ ] Set up basic Next.js configuration
+- [x] Set up basic Next.js configuration
 
 ### Definition of Done
-- [ ] Project structure matches technical specification
-- [ ] All development tools are properly configured
-- [ ] Build process works without errors
+- [x] Project structure matches technical specification
+- [x] All development tools are properly configured
+- [x] Build process works without errors
 - [ ] Test environment is properly set up
