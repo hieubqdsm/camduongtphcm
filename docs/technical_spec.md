@@ -9,7 +9,8 @@ camduongtphcm/
 │   ├── components/        # React components
 │   │   ├── common/       # Shared components
 │   │   ├── map/         # Map related components
-│   │   └── search/      # Search related components
+│   │   ├── search/      # Search related components
+│   │   └── events/      # Event management components
 │   ├── hooks/           # Custom React hooks
 │   ├── utils/           # Helper functions
 │   ├── types/           # TypeScript definitions
@@ -93,6 +94,18 @@ interface EventDetailProps {
 - Modal/Sidebar hiển thị thông tin chi tiết
 - Thời gian bắt đầu/kết thúc
 - Mô tả và khu vực ảnh hưởng
+
+#### Event Management Component
+```typescript
+// components/events/EventForm.tsx
+interface EventFormProps {
+  onSubmit: (event: ClosureEvent) => void;
+}
+```
+- Tạo mới sự kiện đóng đường
+- Chỉnh sửa sự kiện đóng đường
+- Xóa sự kiện đóng đường
+- Lọc sự kiện đóng đường
 
 ### 3. Local Storage Service
 ```typescript
